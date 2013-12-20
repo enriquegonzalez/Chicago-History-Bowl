@@ -1,0 +1,14 @@
+body {
+	background: url(../img/crowd.png); 
+	background-repeat: no-repeat;
+	width: cover;
+}
+
+.logo {
+	width: 40%;
+}
+
+.largest-text {
+	font-size: 5em;
+	color: #fff508;
+}
