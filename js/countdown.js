@@ -6,6 +6,7 @@
     // array of custom settings
     var settings = { 
       'date': null,
+      'format': null
     };
 
     // append the settings array to options
@@ -34,7 +35,15 @@
 		var minutes = Math.floor(seconds / 60);
   		seconds -= minutes * 60; //update the seconds variable with number of minutes removed
 
-  		//update the countdown's html values.
+  		
+  		if(settings['format'] == "on") {
+  			days = (String(days).length >= 2) ? days : "0" + days;
+  			hours = (String(hours).length >= 2) ? hours : "0" + hours;
+  			minutes = (String(minutes).length >= 2) ? minutes : "0" + minutes;
+  			seconds = (String(seconds).length >= 2) ? seconds : "0" + seconds;
+		}
+ 
+   		//update the countdown's html values.
       	thisEl.find(".days").text(days);
       	thisEl.find(".hours").text(hours);
       	thisEl.find(".minutes").text(minutes);
