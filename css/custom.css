@@ -24,3 +24,15 @@ li {
 	display: inline-block;
 	margin-right: 2em;
 }
+
+.timedescription {
+	font-variant: small-caps;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.timenumbers {
+	font-size: 4em;
+	margin: 0 auto;
+	text-align: center;
+}
