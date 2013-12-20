@@ -1,7 +1,7 @@
 body {
-	background:url("../img/crowd.png"); 
+	/*background:url("../img/crowd.png"); 
 	background-size: cover;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat;*/
 }
 
 .logo {
@@ -14,6 +14,10 @@ body {
 	font-size: 5em;
 	font-weight: 500;
 	color: #fff508;
+}
+
+.crowd {
+	width: auto;
 }
 
 ul {
