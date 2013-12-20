@@ -1,14 +1,26 @@
 body {
-	background: url(../img/crowd.png); 
+	background:url("../img/crowd.png"); 
+	background-size: cover;
 	background-repeat: no-repeat;
-	width: cover;
 }
 
 .logo {
+	margin-top: 3em;
 	width: 40%;
 }
 
 .largest-text {
+	font-family: "Univers LT Std";
 	font-size: 5em;
+	font-weight: 500;
 	color: #fff508;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	display: inline-block;
+	margin-right: 2em;
 }
