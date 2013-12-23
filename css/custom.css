@@ -113,7 +113,7 @@ footer {
 
 @media only screen and (max-width: 320px) { 
 	.slogan {
-		font-size: 1.1em;
+		font-size: 5em;
 		line-height: 1.15em;
 		width: 100%;
 	}
@@ -154,6 +154,12 @@ footer {
 
 	.panel {
 		width: 100%;
+	}
+
+	h2 {
+		font-family: "Univers LT Std", sans-serif;
+		font-size: 1.75em;
+		font-weight: 500;
 	}
 
 
