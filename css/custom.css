@@ -113,6 +113,11 @@ footer {
 		margin-top: 3em;
 		width: 100%;
 	}
+	
+	.largest-text {
+		font-size: 3.75em;
+		width: 100%;
+	}
 } /* max-width 320px, small screens */
 
 @media only screen and (max-width: 640px) { 
@@ -120,6 +125,11 @@ footer {
 		margin-bottom: 1em;
 		margin-top: 3em;
 		width: 80%;
+	}
+
+	.largest-text {
+		font-size: 3.75em;
+		width: 100%;
 	}
 } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
