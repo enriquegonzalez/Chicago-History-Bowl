@@ -109,12 +109,12 @@ footer {
 
 
 // Small screens
-@media only screen and (min-width: 320px) { 
+@media only screen and (max-width: 320px) { 
 	.logo {
 		margin-bottom: 1em;
 		margin-top: 3em;
 		width: 100%;
-} /* min-width 320px, small screens */
+} /* max-width 320px, small screens */
 
 @media only screen and (max-width: 40em) { 
 	.logo {
