@@ -42,6 +42,10 @@ main {
 	color: #78b744;
 }
 
+.white-text {
+	color: #fff;
+}
+
 h2 {
 	font-family: "Univers LT Std", sans-serif;
 	font-size: 2em;
@@ -128,6 +132,12 @@ footer {
 		margin-bottom: 1rem;
 		width: 100%;
 	}
+
+	.panel {
+		width: 100%;
+	}
+
+
 } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
 @media only screen and (min-width: 40.063em) {
