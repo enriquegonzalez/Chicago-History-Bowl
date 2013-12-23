@@ -17,6 +17,7 @@ main {
 }
 
 .logo {
+	margin-bottom: 1em;
 	margin-top: 3em;
 	width: 40%;
 }
@@ -25,6 +26,7 @@ main {
 	font-family: "Univers LT Std", sans-serif;
 	font-size: 4.55em;
 	font-weight: 900;
+	line-height: 1em;
 	margin-bottom: 0;
 	width: 75%;
 }
