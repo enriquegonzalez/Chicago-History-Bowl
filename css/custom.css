@@ -108,6 +108,15 @@ footer {
 /*Media Queries */
 
 @media only screen and (max-width: 320px) { 
+	.slogan {
+		font-size: 1.1em;
+		line-height: 1.15em;
+		width: 100%;
+	}
+
+	.yourcity, .yourmuseum, .yourchoice {
+		display: block;
+	}
 
 } /* max-width 320px, small screens */
 
@@ -122,6 +131,17 @@ footer {
 		font-size: 3.75em;
 		width: 100%;
 	}
+
+	.slogan {
+		font-size: 1.4em;
+		line-height: 1.15em;
+		width: 100%;
+	}
+
+	.yourcity, .yourmuseum, .yourchoice {
+		display: block;
+	}
+
 } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
 @media only screen and (min-width: 40.063em) {
