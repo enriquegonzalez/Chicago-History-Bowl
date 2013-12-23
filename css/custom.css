@@ -88,6 +88,9 @@ li {
 	background-color: #78b744;
 	border: none;
 	width: 48%;
+	-webkit-box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.67);
+	   -moz-box-shadow:    1px 1px 10px rgba(50, 50, 50, 0.67);
+            box-shadow:         1px 1px 10px rgba(50, 50, 50, 0.67);
 }
 
 .panel p, .panel h2 {
