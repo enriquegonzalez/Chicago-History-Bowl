@@ -13,14 +13,18 @@
 	font-family: "Univers LT Std";
 	font-size: 5em;
 	font-weight: 500;
+}
+
+.yellow-text {
 	color: #fff508;
 }
 
 .slogan {
 	font-family: "Univers LT Std";
-	font-size: 2.5em;
+	font-size: 1em;
 	font-weight: 400;
 	padding-bottom: 20px;
+	width: auto;
 }
 
 p {
