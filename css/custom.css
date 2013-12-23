@@ -6,12 +6,12 @@
 
 .logo {
 	margin-top: 3em;
-	width: 35%;
+	width: 30%;
 }
 
 .largest-text {
 	font-family: "Univers LT Std";
-	font-size: 5em;
+	font-size: 4.55em;
 	font-weight: 500;
 }
 
@@ -19,17 +19,26 @@
 	color: #fff508;
 }
 
+.green-text {
+	color: #78b744;
+}
+
 .slogan {
 	font-family: "Univers LT Std";
-	font-size: 1em;
+	font-size: .9em;
 	font-weight: 400;
-	padding-bottom: 20px;
+	padding-bottom: 5px;
 	width: auto;
 }
 
+h2 {
+	font-family: "Univers LT Std";
+	font-size: 2em;
+}
+
 p {
-	font-size: 1.5em;
-	width: 80%;
+	font-size: 1.3em;
+	width: auto;
 }
 
 /*.crowd {
@@ -38,6 +47,8 @@ p {
 
 ul {
 	list-style-type: none;
+	margin-bottom: 0;
+	margin-left: 0;
 }
 
 li {
@@ -55,7 +66,7 @@ li {
 
 .timedescription {
 	font-family: "Univers LT Std";
-	font-size: 1.5em;
+	font-size: 1.3em;
 	font-variant: small-caps;
 	margin: 0 auto;
 	text-align: center;
