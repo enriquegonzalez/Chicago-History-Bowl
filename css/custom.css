@@ -9,11 +9,11 @@ html, body {
 
 main {
 	padding:10px;
-	/*padding-bottom:280px;*/   /* Height of the footer element */
+	padding-bottom:280px;   /* Height of the footer element */
 	/*padding-bottom:325px;*/
 	/*padding-bottom: 355px;*/
 	/*padding-bottom: 400px;*/	
-	padding-bottom: 425px;
+	/*padding-bottom: 425px;*/
 }
 
 .logo {
@@ -29,19 +29,19 @@ main {
 	width: 75%;
 }
 
+.slogan {
+	font-family: "Univers LT Std", sans-serif;
+	font-size: .9em;
+	font-weight: 400;
+	width: 75%;
+}
+
 .yellow-text {
 	color: #fff508;
 }
 
 .green-text {
 	color: #78b744;
-}
-
-.slogan {
-	font-family: "Univers LT Std", sans-serif;
-	font-size: .9em;
-	font-weight: 400;
-	width: 75%;
 }
 
 h2 {
@@ -86,7 +86,7 @@ li {
 
 .panel {
 	border: none;
-	width: 75%;
+	width: 48%;
 }
 
 footer {
