@@ -13,31 +13,52 @@ main {
 }
 
 .logo {
+	margin-bottom: 1em;
 	margin-top: 3em;
-	width: 35%;
+	width: 40%;
 }
 
 .largest-text {
-	font-family: "Univers LT Std";
-	font-size: 5em;
-	font-weight: 500;
-	color: #fff508;
+	font-family: "Univers LT Std", sans-serif;
+	font-size: 4.55em;
+	font-weight: 900;
+	line-height: 1em;
+	margin-bottom: 0;
+	width: 75%;
 }
 
 .slogan {
-	font-family: "Univers LT Std";
-	font-size: 2.5em;
+	font-family: "Univers LT Std", sans-serif;
+	font-size: .9em;
 	font-weight: 400;
-	padding-bottom: 20px;
+	width: 75%;
+}
+
+.yellow-text {
+	color: #fff508;
+}
+
+.green-text {
+	color: #78b744;
+}
+
+h2 {
+	font-family: "Univers LT Std", sans-serif;
+	font-size: 2em;
+	font-weight: 600;
 }
 
 p {
-	font-size: 1.5em;
-	width: 80%;
-} 
+	font-family: "Univers LT Std", sans-serif;
+	font-size: 1.3em;
+	margin-bottom: 1rem;
+	width: 75%;
+}
 
 ul {
 	list-style-type: none;
+	margin-bottom: 0;
+	margin-left: 0;
 }
 
 li {
@@ -46,16 +67,16 @@ li {
 }
 
 .timenumbers {
-	font-family: "Univers LT Std";
+	font-family: "Univers LT Std", sans-serif;
 	font-size: 4em;
-	line-height: 1em;
+	line-height: .8em;
 	margin: 0 auto;
 	text-align: center;
 }
 
 .timedescription {
-	font-family: "Univers LT Std";
-	font-size: 1.5em;
+	font-family: "Univers LT Std", sans-serif;
+	font-size: 1.3em;
 	font-variant: small-caps;
 	margin: 0 auto;
 	text-align: center;
