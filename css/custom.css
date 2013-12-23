@@ -124,7 +124,7 @@ footer {
 	}
 
 	.slogan {
-		font-size: 5em;
+		font-size: 1.1em;
 		line-height: 1.15em;
 		width: 100%;
 	}
@@ -138,6 +138,54 @@ footer {
 		margin-bottom: 1rem;
 		width: 100%;
 	}
+
+	.panel {
+		width: 100%;
+	}
+
+
+	.panel h2 {
+		font-size: 1.75em;
+		font-weight: 500;
+		line-height: 1.5;
+	}
+
+	.panel p {
+		font-size: 1.25em;
+		line-height: 1.5;
+	}
+
+	ul {
+		list-style-type: none;
+		margin-bottom: 0;
+		margin-left: 0;
+	}
+
+	li {
+		display: inline-block;
+		margin-right: 0em;
+	}
+
+	.timenumbers {
+		font-family: "Univers LT Std", sans-serif;
+		font-size: 2em;
+		line-height: .5em;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.panel p.timedescription {
+		font-family: "Univers LT Std", sans-serif;
+		font-size: 1.2em;
+		font-variant: small-caps;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	main {
+	padding: 10px;
+	padding-bottom: 360px;   /* Height of the footer element */
+}
 
 } /* max-width 320px, small screens */
 
