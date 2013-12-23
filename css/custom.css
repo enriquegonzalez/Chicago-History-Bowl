@@ -109,8 +109,12 @@ footer {
 
 
 // Small screens
-@media only screen { 
-} /* Define mobile styles */
+@media only screen and (min-width: 320px) { 
+	.logo {
+		margin-bottom: 1em;
+		margin-top: 3em;
+		width: 100%;
+} /* min-width 320px, small screens */
 
 @media only screen and (max-width: 40em) { 
 	.logo {
@@ -140,7 +144,3 @@ footer {
 
 @media only screen and (min-width: 90.063em) and (max-width: 120em) { 
 } /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
-
-/*
-chm logo
-*/
