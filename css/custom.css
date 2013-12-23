@@ -85,8 +85,13 @@ li {
 }
 
 .panel {
+	background-color: #78b744;
 	border: none;
 	width: 48%;
+}
+
+.panel p, .panel h2 {
+	color: #fff;
 }
 
 footer {
