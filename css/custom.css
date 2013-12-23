@@ -108,6 +108,17 @@ footer {
 /*Media Queries */
 
 @media only screen and (max-width: 320px) { 
+	.logo {
+		margin-bottom: 1em;
+		margin-top: 3em;
+		width: 100%;
+	}
+
+	.largest-text {
+		font-size: 3.75em;
+		width: 100%;
+	}
+
 	.slogan {
 		font-size: 1.1em;
 		line-height: 1.15em;
@@ -118,9 +129,15 @@ footer {
 		display: block;
 	}
 
+	p {
+		font-size: 1.25em;
+		margin-bottom: 1rem;
+		width: 100%;
+	}
+
 } /* max-width 320px, small screens */
 
-@media only screen and (max-width: 640px) { 
+@media only screen and (min-width: 321px) and (max-width: 640px) { 
 	.logo {
 		margin-bottom: 1em;
 		margin-top: 3em;
