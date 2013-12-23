@@ -108,23 +108,14 @@ footer {
 /*Media Queries */
 
 @media only screen and (max-width: 320px) { 
-	.logo {
-		margin-bottom: 1em;
-		margin-top: 3em;
-		width: 100%;
-	}
-	
-	.largest-text {
-		font-size: 3.75em;
-		width: 100%;
-	}
+
 } /* max-width 320px, small screens */
 
 @media only screen and (max-width: 640px) { 
 	.logo {
 		margin-bottom: 1em;
 		margin-top: 3em;
-		width: 80%;
+		width: 100%;
 	}
 
 	.largest-text {
