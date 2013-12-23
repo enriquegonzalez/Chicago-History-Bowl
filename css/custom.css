@@ -8,8 +8,8 @@ html, body {
 }
 
 main {
-	padding:10px;
-	padding-bottom:280px;   /* Height of the footer element */
+	padding: 10px;
+	padding-bottom: 280px;   /* Height of the footer element */
 }
 
 .logo {
@@ -112,14 +112,14 @@ footer {
 		margin-bottom: 1em;
 		margin-top: 3em;
 		width: 100%;
-	)
+	}
 } /* max-width 320px, small screens */
 
-@media only screen and (max-width: 40em) { 
+@media only screen and (max-width: 640px) { 
 	.logo {
 		margin-bottom: 1em;
 		margin-top: 3em;
-		width: 100%;
+		width: 80%;
 	}
 } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
