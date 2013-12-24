@@ -68,17 +68,20 @@ ul {
 	list-style-type: none;
 	margin-bottom: 0;
 	margin-left: 0;
+	border: 1px solid blue;
 }
 
 li {
 	display: inline-block;
 	margin-right: 2em;
+	border: 1px solid white;
 }
 
 .timenumbers {
+	display: block;
 	font-family: "Univers LT Std", sans-serif;
-	font-size: 4em;
-	line-height: .8em;
+	font-size: 2em;
+	line-height: 1.5;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -87,6 +90,7 @@ li {
 	font-family: "Univers LT Std", sans-serif;
 	font-size: 1.3em;
 	font-variant: small-caps;
+	line-height: 1.5;
 	margin: 0 auto;
 	text-align: center;
 }
