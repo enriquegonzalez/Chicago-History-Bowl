@@ -172,7 +172,7 @@ footer {
 		display: inline-block;
 		margin-right: .25em;
 		width: 21.5%;
-		background-color: black;
+		background-color: hsla(0, 0%, 0%, 1);
 		border: 1px solid #569522;
 	}
 
