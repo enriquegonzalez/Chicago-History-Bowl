@@ -168,7 +168,8 @@ footer {
 
 	li {
 		display: inline-block;
-		margin-right: 0em;
+		margin-right: .25em;
+		width: 21%;
 	}
 
 	.timenumbers {
@@ -181,16 +182,16 @@ footer {
 
 	.panel p.timedescription {
 		font-family: "Univers LT Std", sans-serif;
-		font-size: 1.2em;
+		font-size: .675em;
 		font-variant: small-caps;
 		margin: 0 auto;
 		text-align: center;
 	}
 
 	main {
-	padding: 10px;
-	padding-bottom: 360px;   /* Height of the footer element */
-}
+		padding: 10px;
+		padding-bottom: 360px;   /* Height of the footer element */
+	}
 
 } /* max-width 320px, small screens */
 
