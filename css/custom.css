@@ -14,7 +14,7 @@ html, body {
 
 main {
 	padding: 10px;
-	padding-bottom: 280px;   /* Height of the footer element */
+	padding-bottom: 340px;   /* Height of the footer element */
 }
 
 .logo {
@@ -55,6 +55,7 @@ h2 {
 	font-family: "Univers LT Std", sans-serif;
 	font-size: 2em;
 	font-weight: 600;
+	padding-top: 2.5%;
 }
 
 p {
@@ -73,6 +74,7 @@ ul {
 li {
 	display: inline-block;
 	margin-right: 2em;
+	width: 6em;
 }
 
 .timenumbers {
@@ -98,7 +100,8 @@ li {
 .panel {
 	background-color: #78b744;
 	border: none;
-	width: 48%;
+	padding: 2%;
+	width: 52%;
 }
 
 .panel p, .panel h2 {
