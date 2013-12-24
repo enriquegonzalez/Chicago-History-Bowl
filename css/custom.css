@@ -190,6 +190,8 @@ footer {
 		font-variant: small-caps;
 		margin: 0 auto;
 		text-align: center;
+		position: relative;
+		top: -10px;
 	}
 
 	main {
