@@ -139,6 +139,7 @@ footer {
 		font-size: 1.1em;
 		line-height: 1.15em;
 		width: 100%;
+		display: none;
 	}
 
 	.yourcity, .yourmuseum, .yourchoice {
