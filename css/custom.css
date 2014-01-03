@@ -48,7 +48,7 @@ p {
 
 main {
 	padding: 10px;
-	padding-bottom: 340px;   /* Height of the footer element */
+	padding-bottom: 280px;   /* Height of the footer element */
 }
 
 footer {
@@ -153,6 +153,16 @@ h2 {
 	top: -25px;
 }
 
+.sponsor {
+	font-size: 1.2em;
+	text-align: right;
+}
+
+.here {
+	width: 20%;
+	vertical-align: text-bottom;
+}
+
 /* *******************
 *
 * Media Queries
@@ -239,9 +249,18 @@ h2 {
 		top: -10px;
 	}
 
+	.sponsor {
+		font-size: .8em;
+		padding-top: 3%;
+	}
+
+	.here {
+		width: 30%;
+	}
+
 	main {
 		padding: 10px;
-		padding-bottom: 360px;   /* Height of the footer element */
+		padding-bottom: 380px;   /* Height of the footer element */
 	}
 
 }
@@ -289,7 +308,15 @@ h2 {
 
 	main {
 		padding: 10px;
-		padding-bottom: 430px;   /* Height of the footer element */
+		padding-bottom: 470px;   /* Height of the footer element */
+	}
+
+}
+
+@media only screen and (min-width: 641px) and (max-width: 1290px) { 
+	main {
+		padding: 10px;
+		padding-bottom: 420px;   /* Height of the footer element */
 	}
 
 }
