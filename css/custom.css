@@ -58,7 +58,7 @@ main {
         padding-bottom: 280px;   /* Height of the footer element */
 }
 
-footer {
+/*footer {
         background:url("../img/crowd.png") no-repeat;
         background-size: cover;
         width:100%;
@@ -66,7 +66,7 @@ footer {
         position:absolute;
         bottom:0;
         left:0;
-}
+}*/
 
 /* *******************
 *
@@ -160,6 +160,7 @@ li {
 .sponsor {
         font-size: 1.2em;
         text-align: right;
+        background-color: #222;
 }
 
 .here {
