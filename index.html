@@ -20,12 +20,13 @@
   </head>
   <body>
   <div id="wrapper">
-  <main>    
+  <main>
     <div class="row">
       <div class="large-12 columns">
         <article>
           <header>
-            <img src="img/chmlogo.png" class="logo" alt="Chicago History Museum logo">
+            <a href="http://chicagohistory.org">
+            <img src="img/chmlogo.png" class="logo" alt="Chicago History Museum logo"></a>
             <h1 class="largest-text">Chicago History Bowl<h1>
             <p class="slogan"><span class="yourcity">Your City.</span> <span class="yourmuseum">Your Museum.</span> <span class="yourchoice">Your Choice.</span></p>
             <span class='st_sharethis_large' displayText='ShareThis'></span>
@@ -35,14 +36,18 @@
             <span class='st_email_large' displayText='Email'></span>
           </header>
 
-            <p>This fall we gave Chicago an assignment to nominate a story for a future exhibition at our Museum. <span class="hidetext">Thousands told us their ideas. We identified sixteen of the most mentioned topics, and created a three round tournament where people voted on the winner.</span></p>
+            <p>This fall we gave Chicago an assignment to nominate a story for a future exhibition at our Museum. <span class="hidetext">Thousands told us their ideas. We identified sixteen of the most mentioned topics, and created a three-round tournament where people voted on the winner.</span></p>
 
           <div class="panel">
 
-            <h2>What story did Chicago choose?</h2>
-            <p>Find out on NBC5 News at Noon on Tuesday, January 7!</p>
+            <h2>Which story did Chicago choose?</h2>
+            <p><span class="winner yellow-text">Chicago Authors</span></p>
+            <p>Thanks for helping us fulfill our mission by sharing the city's stories!</p>
 
-            <ul id="countdown">
+
+            <!--<p>Find out on NBC5 News at Noon on Tuesday, January 7!</p>
+
+             <ul id="countdown">
               <li>
                 <span class="days timenumbers yellow-text">00</span>
                 <p class="timeRefDays timedescription">days</p>
@@ -59,12 +64,12 @@
                 <span class="seconds timenumbers yellow-text">00</span>
                 <p class="timeRefSeconds timedescription">seconds</p>
               </li>
-            </ul>
+            </ul> -->
 
             <p class="sponsor">Presented by <img src="img/herelogowhite.png" class="here" alt="HERE logo"></p>
 
           </div>
-        
+
         </article>
       </div>
     </div>
@@ -72,23 +77,23 @@
 
   <footer></footer>
 </div>
-    
+
     <script src="js/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
     <script src="js/countdown.js"></script>
     <script>
       $(document).foundation();
     </script>
-    <script type="text/javascript">
-       $("#countdown").countdown({
-        date: "7 january 2014 12:00:00", // add the countdown's end date (i.e. 3 november 2012 12:00:00)
-        format: "on", // on (03:07:52) | off (3:7:52) - two_digits set to ON maintains layout consistency
-      }, function() {
-        // the code here will run when the countdown ends
-        alert("Countdown finished!");
-      });
+    <!--<script type="text/javascript">
+    //    $("#countdown").countdown({
+    //     date: "7 january 2014 12:30:00", // add the countdown's end date (i.e. 3 november 2012 12:00:00)
+    //     format: "on", // on (03:07:52) | off (3:7:52) - two_digits set to ON maintains layout consistency
+    //   }, function() {
+    //     // the code here will run when the countdown ends
+    //     alert("Refresh your browser to see the winner!");
+    //   });
 
 
-    </script>
+    // </script>-->
   </body>
 </html>

@@ -15,7 +15,7 @@
 
 /* *******************
 *
-* Base 
+* Base
 *
 ******************* */
 
@@ -28,6 +28,13 @@ html, body {
 	height: 100%;
 }
 
+h2 {
+	font-family: "Univers LT Std", sans-serif;
+	font-size: 2em;
+	font-weight: 600;
+	padding-top: 2.5%;
+}
+
 p {
 	font-family: "Univers LT Std", sans-serif;
 	font-size: 1.3em;
@@ -37,7 +44,7 @@ p {
 
 /* *******************
 *
-* Layout 
+* Layout
 *
 ******************* */
 
@@ -63,7 +70,7 @@ footer {
 
 /* *******************
 *
-* Modules 
+* Modules
 *
 ******************* */
 
@@ -92,7 +99,7 @@ li {
 
 /* *******************
 *
-* Section Specific 
+* Section Specific
 *
 ******************* */
 
@@ -118,19 +125,16 @@ li {
 	width: 75%;
 }
 
+.winner {
+	font-size: 2.75em;
+}
+
 .yellow-text {
 	color: #fff508;
 }
 
 .white-text {
 	color: #fff;
-}
-
-h2 {
-	font-family: "Univers LT Std", sans-serif;
-	font-size: 2em;
-	font-weight: 600;
-	padding-top: 2.5%;
 }
 
 .timenumbers {
@@ -171,7 +175,7 @@ h2 {
 
 /* max-width 320px, small screens */
 
-@media only screen and (max-width: 320px) { 
+@media only screen and (max-width: 320px) {
 	.logo {
 		margin-bottom: 1em;
 		margin-top: 3em;
@@ -198,6 +202,11 @@ h2 {
 		font-size: 1.25em;
 		margin-bottom: 1rem;
 		width: 100%;
+	}
+
+	.winner {
+		font-size: 2.75em;
+		line-height: 1.25em;
 	}
 
 	.hidetext {
@@ -267,7 +276,7 @@ h2 {
 
 /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
-@media only screen and (min-width: 321px) and (max-width: 640px) { 
+@media only screen and (min-width: 321px) and (max-width: 640px) {
 	.logo {
 		margin-bottom: 1em;
 		margin-top: 3em;
@@ -313,7 +322,7 @@ h2 {
 
 }
 
-@media only screen and (min-width: 641px) and (max-width: 1290px) { 
+@media only screen and (min-width: 641px) and (max-width: 1290px) {
 	main {
 		padding: 10px;
 		padding-bottom: 420px;   /* Height of the footer element */
