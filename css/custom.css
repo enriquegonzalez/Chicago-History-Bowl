@@ -24,9 +24,9 @@
         src: url(../fonts/UniversLTStd.otf);
 }
 
-html, body {
+/*html, body {
         height: 100%;
-}
+}*/
 
 h2 {
         font-family: "Univers LT Std", sans-serif;
@@ -48,17 +48,17 @@ p {
 *
 ******************* */
 
-#wrapper {
+/*#wrapper {
         min-height:100%;
         position:relative;
 }
 
 main {
         padding: 10px;
-        padding-bottom: 280px;   /* Height of the footer element */
+        padding-bottom: 280px;    Height of the footer element
 }
 
-/*footer {
+footer {
         background:url("../img/crowd.png") no-repeat;
         background-size: cover;
         width:100%;
@@ -74,7 +74,7 @@ main {
 *
 ******************* */
 
-.panel {
+/*.panel {
         background-color: #78b744;
         border: none;
         width: 52%;
@@ -83,9 +83,9 @@ main {
 .panel p, .panel h2 {
         color: #fff;
         width: auto;
-}
+}*/
 
-ul {
+/*ul {
         list-style-type: none;
         margin-bottom: 0;
         margin-left: 0;
@@ -95,7 +95,7 @@ li {
         display: inline-block;
         margin-right: 2em;
         width: 6em;
-}
+}*/
 
 /* *******************
 *
@@ -129,15 +129,15 @@ li {
         font-size: 2.75em;
 }
 
-.yellow-text {
+/*.yellow-text {
         color: #fff508;
-}
+}*/
 
 .white-text {
         color: #fff;
 }
 
-.timenumbers {
+/*.timenumbers {
         display: block;
         font-family: "Univers LT Std", sans-serif;
         font-size: 4em;
@@ -155,12 +155,11 @@ li {
         text-align: center;
         position: relative;
         top: -25px;
-}
+}*/
 
 .sponsor {
         font-size: 1.2em;
         text-align: right;
-        background-color: #222;
 }
 
 .here {
@@ -214,7 +213,7 @@ li {
                 display: none;
         }
 
-        .panel {
+/*        .panel {
                 width: 100%;
         }
 
@@ -257,7 +256,7 @@ li {
                 text-align: center;
                 position: relative;
                 top: -10px;
-        }
+        }*/
 
         .sponsor {
                 font-size: .8em;
@@ -268,10 +267,10 @@ li {
                 width: 30%;
         }
 
-        main {
+/*        main {
                 padding: 10px;
-                padding-bottom: 380px;   /* Height of the footer element */
-        }
+                padding-bottom: 380px;   Height of the footer element
+        }*/
 
 }
 
@@ -306,9 +305,9 @@ li {
                 width: 100%;
         }
 
-        .panel {
+/*        .panel {
                 width: 100%;
-        }
+        }*/
 
         h2 {
                 font-family: "Univers LT Std", sans-serif;
@@ -316,17 +315,17 @@ li {
                 font-weight: 500;
         }
 
-        main {
+/*        main {
                 padding: 10px;
-                padding-bottom: 470px;   /* Height of the footer element */
-        }
+                padding-bottom: 470px;   height of the footer element
+        }*/
 
 }
 
 @media only screen and (min-width: 641px) and (max-width: 1290px) {
-        main {
+      /*  main {
                 padding: 10px;
-                padding-bottom: 420px;   /* Height of the footer element */
-        }
+                padding-bottom: 420px;    Height of the footer element
+        }*/
 
 }
