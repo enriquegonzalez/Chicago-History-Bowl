@@ -38,6 +38,12 @@ p {
         width: 65ex;
 }
 
+body {
+    background-image: url('../img/bookstack.png');
+    background-repeat: no-repeat;
+     background-size: 23%;
+}
+
 q {
     quotes: "\201C" "\201D" "\2018" "\2019";
     font-family: serif;
