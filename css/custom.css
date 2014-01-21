@@ -41,7 +41,7 @@ p {
 body {
     background-image: url('../img/bookstack.png');
     background-repeat: no-repeat;
-     background-size: 23%;
+    background-size: auto 100%;
 }
 
 q {
@@ -202,6 +202,10 @@ footer {
                 width: 30%;
         }
 
+        body {
+            background-image: none;
+        }
+
 }
 
 /* max-width 640px, mobile-only styles, use when QAing mobile issues */
@@ -247,12 +251,47 @@ footer {
                 font-weight: 500;
         }
 
+        body {
+                background-image: none;
+        }
+
 }
 
 @media only screen and (min-width: 641px) and (max-width: 745px) {
 
-     p {
+     body {
+            background-image: none;
+        }
+
+        p {
                 width: 100%;
+        }
+
+}
+
+@media only screen and (min-width: 746px) and (max-width: 1044px) {
+
+     body {
+        background-image: none;
+        }
+
+}
+
+@media only screen and (min-width: 1045px) and (max-width: 1365px) {
+
+     body {
+            background-size: 35% 100%;
+            margin-left: 20em;
+        }
+
+}
+
+
+@media only screen and (min-width: 1366px) and (max-width: 1682px) {
+
+     body {
+            background-size: 25% 100%;
+            margin-left: 15em;
         }
 
 }
