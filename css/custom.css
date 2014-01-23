@@ -267,12 +267,20 @@ footer {
                 width: 100%;
         }
 
+        .largest-text {
+            font-size: 4em;
+        }
+
 }
 
 @media only screen and (min-width: 746px) and (max-width: 1044px) {
 
      body {
         background-image: none;
+        }
+
+        .largest-text {
+            font-size: 4em;
         }
 
 }
@@ -296,6 +304,10 @@ footer {
      body {
             background-size: 25% 100%;
             margin-left: 15em;
+        }
+
+        .largest-text {
+            font-size: 4em;
         }
 
 }
